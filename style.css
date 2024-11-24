@@ -1,0 +1,97 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0faff; /* Soft pale blue */
+    color: #00334e; /* Rich dark blue */
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Headings */
+  h1, h2 {
+    text-align: center;
+    color: #00509e; /* Vibrant medium blue */
+    margin-top: 20px;
+  }
+
+  h1 {
+    font-size: 2.8em;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 1.8em;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  /* Paragraphs */
+  p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin: 20px 15%;
+    text-align: justify;
+  }
+
+  /* Image Styling */
+  img {
+    display: block;
+    max-width: 70%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Links */
+  a {
+    color: #0077c2; /* Brighter blue */
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  a:hover {
+    color: #004a82; /* Darker blue for hover */
+  }
+
+  /* Button Styling */
+  button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #0077b6; /* Vibrant blue */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+
+  button:hover {
+    background-color: #005082; /* Darker blue for hover */
+    transform: scale(1.05); /* Slight zoom effect */
+  }
+
+  button:active {
+    transform: scale(0.95); /* Shrinks when clicked */
+  }
+
+  /* Footer */
+  footer {
+    text-align: center;
+    background-color: #00334e; /* Dark rich blue */
+    color: white;
+    padding: 15px 0;
+    margin-top: 30px;
+  }
+
+  footer a {
+    color: #66d1ff; /* Light blue link in footer */
+    text-decoration: none;
+  }
+
+  footer a:hover {
+    text-decoration: underline;
+  }
